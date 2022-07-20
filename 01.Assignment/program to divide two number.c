@@ -7,7 +7,7 @@ int Divide( int iNo1, int iNo2 )
 
                 if( iNo2 > iNo1)
                 {
-                                return -1;
+                     return -1;
                 }
 
                 iAns = iNo1 / iNo2;
