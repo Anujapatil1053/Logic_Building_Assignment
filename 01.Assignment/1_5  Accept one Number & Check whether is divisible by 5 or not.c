@@ -31,10 +31,10 @@ int main()
          bRet = check( iValue );
   
          if( bRet == TRUE )
-        {
+         {
                   printf(" \n  Number is Divisible by 5 ");
     
-        }
+         }
 
         else 
         {
