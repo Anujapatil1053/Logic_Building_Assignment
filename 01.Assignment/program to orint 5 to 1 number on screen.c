@@ -3,20 +3,22 @@
 
 int Display()
 {
-  int i=0;
+          int i=0;
   
-  i=5;
+           i=5;
   
    
   
-  while(i > 0)
-  {
-    printf("\n %d \n",i);
-    i--;
-  }
+          while(i > 0)
+          {
+                     printf("\n %d \n",i);
+
+                      i--;
+          }
 }
 int main()
 {
-  Display();
-  return 0;
+                    Display();
+
+                    return 0;
 }
