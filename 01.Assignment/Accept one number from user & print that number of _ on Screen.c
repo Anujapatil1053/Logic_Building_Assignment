@@ -3,22 +3,22 @@
 
 void Accept(int No)
 {
-    int icnt = 0;
+            int icnt = 0;
   
-    for( icnt = 1;icnt <= No; icnt++)
-    {
+            for( icnt = 1;icnt <= No; icnt++)
+            {
        
-      printf(" * ");
-    }  
+                        printf(" * ");
+            }  
  
 }
 int main()
 {
-   int ivalue = 0;
+            int ivalue = 0;
    
-   ivalue = 5;
+            ivalue = 5;
   
-  Accept( ivalue );
+            Accept( ivalue );
   
-  return 0;
+            return 0;
 }
