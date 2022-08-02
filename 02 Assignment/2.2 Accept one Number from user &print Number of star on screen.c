@@ -4,23 +4,24 @@
 void Display( int iNo)
 {
   
-  int i = 0;
+              int i = 0;
   
-  while( iNo > i)
-  {
-    printf("\t * \n");
-    iNo--;
-  }
+              while( iNo > i)
+              {
+                       printf("\t * \n");
+
+                       iNo--;
+              }
 }
 
 int main()
 {
-  int iValue = 0;
+               int iValue = 0;
   
-  printf("\n Enter Number = ");
-  scanf("%d",&iValue);
+               printf("\n Enter Number = ");
+               scanf("%d",&iValue);
   
-  Display(iValue);
+               Display(iValue);
   
-  return 0;
+               return 0;
 }
