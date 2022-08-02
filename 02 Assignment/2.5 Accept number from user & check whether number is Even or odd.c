@@ -6,32 +6,34 @@
 
 ChkEven ( int iNo )
 {
-  if ( iNo % 2 == 0 )
-  {
-    return 1;
-  }
-  else
-  {
-    return 0;
-  }
+           if ( iNo % 2 == 0 )
+           {
+                     return 1;
+           }
+
+           else
+           {
+                     return 0;
+           }
 }
 
 int main()
 {
-  int iValue = 0 , bRet = 0;
+           int iValue = 0 , bRet = 0;
   
   
-  printf("\n Enter A Number = ");
-  scanf("%d",&iValue);
+          Printf("\n Enter A Number = ");
+          scanf("%d",&iValue);
   
-  bRet = ChkEven(iValue);
+          bRet = ChkEven(iValue);
   
-  if(bRet == 1)
-  {
-    printf("\n Given Number %d Is Even \n ",iValue );
-  }
-  else
-  {
-    printf("\n Given Number %d Is Odd \n ",iValue);
-  }
+          if(bRet == 1)
+          {
+                    printf("\n Given Number %d Is Even \n ",iValue );
+          }
+
+          else
+          {
+                    printf("\n Given Number %d Is Odd \n ",iValue);
+          }
 }
