@@ -5,20 +5,20 @@ void printEven(int iNo)
 {
   
   
-  if ( iNo <= 0)
-  {
-    return ;
-  }
+           if ( iNo <= 0)
+           {
+                   return ;
+           }
   
-  int i = 0;
+           int i = 0;
   
-  for( i = 1;i <= iNo;i++ )
-  {
+           for( i = 1;i <= iNo;i++ )
+           {
   
-    if ( i % 2 == 0 )
-    {
-      printf("\n %d \n",i);
-    }
+           if ( i % 2 == 0 )
+           {
+                    printf("\n %d \n",i);
+           }
     
 
   }
@@ -28,12 +28,12 @@ void printEven(int iNo)
 
 int main()
 {
-  int iValue = 0;
+           int iValue = 0;
   
-  printf("\n Enter A Number =");
-  scanf("%d",&iValue);
+           printf("\n Enter A Number =");
+           scanf("%d",&iValue);
   
-  printEven(iValue);
+           printEven(iValue);
   
-  return 0;
+           return 0;
 }
