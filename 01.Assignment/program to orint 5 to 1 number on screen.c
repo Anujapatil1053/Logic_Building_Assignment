@@ -3,18 +3,18 @@
 
 int Display()
 {
-          int i=0;
-  
-           i=5;
-  
-   
-  
-          while(i > 0)
-          {
-                     printf("\n %d \n",i);
+                    int i=0;
 
-                      i--;
-          }
+                     i=5;
+
+
+
+                    while(i > 0)
+                    {
+                               printf("\n %d \n",i);
+
+                                i--;
+                    }
 }
 int main()
 {
