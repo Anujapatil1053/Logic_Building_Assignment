@@ -8,38 +8,38 @@ typedef int BOOL;
 
 int check(int iNo)
 {
-         if( ( iNo % 5 ) == 0)
-         {
-                 return TRUE;
-         }
+                           if( ( iNo % 5 ) == 0)
+                           {
+                                   return TRUE;
+                           }
 
-         else
-         {
-                 return FALSE;
-         }
+                           else
+                           {
+                                   return FALSE;
+                           }
 }
 
 int main()
 {
-         int iValue = 0;
-  
-         BOOL bRet = FALSE;
-  
-         printf(" \n Enter Number = ");
-         scanf("%d",&iValue);
-  
-         bRet = check( iValue );
-  
-         if( bRet == TRUE )
-         {
-                  printf(" \n  Number is Divisible by 5 ");
-    
-         }
+                           int iValue = 0;
 
-        else 
-        {
-                 printf(" \n Number is not  Divisible by 5");
-        }
-  
-                  return 0;
+                           BOOL bRet = FALSE;
+
+                           printf(" \n Enter Number = ");
+                           scanf("%d",&iValue);
+
+                           bRet = check( iValue );
+
+                           if( bRet == TRUE )
+                           {
+                                    printf(" \n  Number is Divisible by 5 ");
+
+                           }
+
+                          else 
+                          {
+                                   printf(" \n Number is not  Divisible by 5");
+                          }
+
+                                    return 0;
 }
